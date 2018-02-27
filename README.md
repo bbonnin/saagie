@@ -3,8 +3,11 @@
 Code examples
 
 * R
-	* test_jdbc.r: example of R code for querying a JDBC-compliant database (see also `rjdbc-hive` project below)
+  * test_jdbc.r: example of R code for querying a JDBC-compliant database (see also `rjdbc-hive` project below)
 
-* java
-	* rjdbc-hive: jar with Hive JDBC driver and all the dependencies (can be used with RJDBC)
-		* The jar is available in the lib directory
+* utils
+  * jdbc-hive: jar with Hive JDBC driver and all the dependencies (can be used with RJDBC)
+    * The jar is available in the `target` directory
+  * simple-proxy      
+
+> Yes, it's a shame to put jar files in a git repository, I know...
