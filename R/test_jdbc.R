@@ -4,6 +4,7 @@ library(RJDBC)
 #.jinit(force.init=TRUE) 
 #.jclassPath()
 
+# Les librairies java (jar) de hive sont stockées dans le répertoire qui suit
 hive_path = "/home/admin/hive"
 
 drv <- JDBC(driverClass="org.apache.hive.jdbc.HiveDriver",
