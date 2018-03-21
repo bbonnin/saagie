@@ -14,6 +14,6 @@ sudo apt-get install libpcre3-dev
 
 ```sh
 # In a terminal (can also be done in a R script)
-sudo Rscript -e 'install.packages("rJava")'
-sudo Rscript -e 'install.packages("RJDBC")'
+sudo Rscript -e 'install.packages("rJava", repos = "https://cran.r-project.org/")'
+sudo Rscript -e 'install.packages("RJDBC", repos = "https://cran.r-project.org/")'
 ```
