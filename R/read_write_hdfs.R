@@ -7,7 +7,7 @@ if (!require(httr)) {
 }
 
 
-Sys.setenv(WEBHDFS_URI = "http://172.17.0.2:50070") # NE PAS FAIRE
+Sys.setenv(WEBHDFS_URI = "http://172.17.0.2:50070") # NE PAS FAIRE (TEST LOCAL UNIQUEMENT)
 
 # Variable d'environnement à positionner dans la partie "Settings" de la plateforme Saagie
 # - la valeur doit être au format http://serveur:port où serveur est l'adresse IP ou hostname du namenode
