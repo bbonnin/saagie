@@ -8,7 +8,7 @@ Code examples
 
 * python
   * read_write_hdfs.py: example for reading and writing files in HDFS
-  * test_hive.py: accès à Hive
+  * test_hive.py: Hive queries
 
 * utils
   * jdbc-hive: jar with Hive JDBC driver and all the dependencies (can be used with RJDBC)
