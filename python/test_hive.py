@@ -18,7 +18,6 @@ with ibis.config.config_prefix('impala'):
 
 hdfs = ibis.hdfs_connect(host=os.environ['IP_HDFS'], port=50070)
 
-# ibis.impala.connect pour des versions plus anciennces
 client = ibis.impala.connect(host=os.environ['IP_HIVE'], port=10000, hdfs_client=hdfs, user='VOTRE_USERNAME', password='VOTRE_PASSWORD', auth_mechanism='PLAIN')
 
 # ====== Ecriture dans la table ======
