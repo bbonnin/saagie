@@ -1,0 +1,6 @@
+hdfs
+pandas
+thrift==0.9.3
+thrift_sasl==0.2.1
+impyla
+ibis-framework
