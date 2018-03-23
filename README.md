@@ -13,6 +13,9 @@ Code examples
 * distcp
   * readme about how to copy files between clusters
 
+* hive
+  * multi-hive: java/spark project to copy data in Hive from one cluster to another 
+
 * utils
   * jdbc-hive: jar with Hive JDBC driver and all the dependencies (can be used with RJDBC)
     * The jar is available in the `target` directory
